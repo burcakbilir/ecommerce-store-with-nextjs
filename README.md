@@ -65,7 +65,7 @@ Gerekli paketleri yükleyin
 Sunucuyu çalıştırın
 
 ```bash
-  npm run start
+  npm run dev
 ```
 
 Uygulama http://localhost:3000/ adresinde çalışacaktır.
