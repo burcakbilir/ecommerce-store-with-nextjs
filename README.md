@@ -1,36 +1,73 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+# Gelişmiş Filtrelemeli E-ticaret Mağazası
 
-First, run the development server:
+Bu proje, Next.js (App Router), Redux Toolkit, HeadlessUI ve TailwindCSS kullanılarak geliştirilmiş bir e-ticaret mağazasıdır. Kullanıcılar, ürünleri kategorilere göre filtreleyebilir, sepete ürün ekleyebilir ve sepet içindeki ürün adetlerini değiştirebilir. Ayrıca, ürünler arasında fiyat artışı veya azalışı ile sıralama yapabilir, ürün araması gerçekleştirebilir ve her ürünün detay sayfasına gidebilir. Uygulama, mobil uyumlu (Mobile-Friendly) ve Dark Mode seçeneği ile kullanıcı dostu bir deneyim sunar.
+
+
+
+## Demo
+
+https://ecommerce-store-with-nextjs.netlify.app/
+
+  
+## Kullanılan Teknolojiler
+
+
+
+- Nextjs App Router
+- TailwindCSS
+- Redux Toolkit
+- HeadlessUI
+- Next Themes
+- Hero Icons
+- React Toastify
+
+## Pages
+
+
+- Home Page
+- Products Page
+- Product Detail Page
+- Cart Page
+- Checkout Page
+
+
+  
+  ## Özellikler
+
+- **Gelişmiş Filtreleme:** Ürünleri kategori, isim veya fiyat(artan, azalan) gibi kriterlere göre filtreleyebilirsiniz.
+- **Sepet Yönetimi:** Ürünleri sepete ekleyin, sepeti temizleyin, ürünleri sepetten çıkarın ve ürün adetlerini değiştirebilirsiniz. Ayrıca, sepetin toplam tutarını görebilir ve ödeme adımına geçebilirsiniz
+- **Dinamik Ürün Güncellemeleri:** Filtreleme ve sıralama seçenekleriyle ürün listesini dinamik olarak güncelleyebilirsiniz.
+- **Sıralama:** Ürünleri fiyatlarına göre artan veya azalan şekilde sıralayabilirsiniz.
+- **Dark Mode:** Kullanıcılar, uygulamanın görünümünü tercihlerine göre karanlık mod (Dark Mode) veya aydınlık mod (Light Mode) arasında geçiş yaparak özelleştirebilirler.
+
+
+## Bilgisayarınızda Çalıştırın
+
+Projeyi klonlayın
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/burcakbilir/ecommerce-store-with-nextjs.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Proje dizinine gidin
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+  cd ecommerce-store-with-nextjs
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Gerekli paketleri yükleyin
 
-## Learn More
+```bash
+  npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+Sunucuyu çalıştırın
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+  npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Uygulama http://localhost:3000/ adresinde çalışacaktır.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+  
