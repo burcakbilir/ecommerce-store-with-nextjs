@@ -1,5 +1,6 @@
 
 "use client"
+import Image from "next/image";
 import Link from "next/link";
 import { useSelector } from "react-redux";
 
@@ -70,7 +71,7 @@ export default function CheckoutPage() {
            {carts.map((item)=> (
             <div className="grid grid-cols-1 sm:grid-cols-4 border-b border-gray-200 dark:border-gray-600 py-4" key={item.id}>
               <div className="flex items-center justify-center">
-              <img src={item.image} className="w-20 h-20 object-contain bg-white rounded-md"/>
+              <Image src={item?.image} className="w-20 h-20 object-contain bg-white rounded-md" width={100} height={100} alt="desc"/>
               </div>
               <h3 className="text-sm text-gray-700 dark:text-white font-semibold text-center">{item.title.slice(0,30)}...</h3>
               <span className="text-sm text-center text-gray-700 dark:text-white">{item.quantity} Adet</span>

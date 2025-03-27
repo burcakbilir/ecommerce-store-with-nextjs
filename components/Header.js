@@ -20,7 +20,7 @@ export default function Header() {
 
   useEffect(()=> {
    dispatch(getCartTotal())
-  },[])
+  },[dispatch])
 
   return (
     <header className="bg-white dark:bg-slate-900">
@@ -125,20 +125,20 @@ export default function Header() {
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
                 <Link href="/" passHref legacyBehavior>
-                  <a
-                    href="/"
+                  <span
+                   
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-slate-600"
                   >
                     Anasayfa
-                  </a>
+                  </span>
                 </Link>
                 <Link href="/products" passHref legacyBehavior>
-                  <a
+                  <span
                     href="/products"
                     className="-mx-3 block rounded-lg px-3 py-2 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-slate-600"
                   >
                     Ürünler
-                  </a>
+                  </span>
                 </Link>
               </div>
 
@@ -155,12 +155,12 @@ export default function Header() {
                   </span>
                  
                 </div>
-                <a
-                  href="#"
+                <Link
+                  href="/"
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base/7 font-semibold text-gray-900 hover:bg-gray-50 dark:text-white dark:hover:bg-slate-600"
                 >
                   Giriş Yap
-                </a>
+                </Link>
               </div>
             </div>
           </div>

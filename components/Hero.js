@@ -5,10 +5,10 @@ export default function Hero() {
     <div className="dark:bg-slate-900">
       <div className="text-center py-10 sm:py-20 md:py-28 lg:py-32 mx-auto max-w-2xl">
         <h1 className="text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-7xl dark:text-white">
-          %50'ye Varan İndirimlerle Alışveriş Keyfini Yaşayın!
+        %50&apos;ye Varan İndirimlerle Alışveriş Keyfini Yaşayın!
         </h1>
         <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8">
-          Fırsatlar sizi bekliyor! Popüler ürünlerde %50'ye varan indirimler ile
+          Fırsatlar sizi bekliyor! Popüler ürünlerde %50&apos;ye varan indirimler ile
           şimdi alışveriş yapın ve cebinizi koruyun. Sınırlı süreli
           kampanyalarla ihtiyacınız olan her şeyi en uygun fiyatlarla bulun!
         </p>
